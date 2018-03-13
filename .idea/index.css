@@ -1,0 +1,87 @@
+#nav:visited , nav:hoover{
+  color: white;
+  background: grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: right;
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: ;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header{
+  font-family:'Rubik Mono One',sans serif;
+  background-color: orange;
+  text-align: center;
+  padding: 40px;
+}
+
+#content {
+  background-color:grey;
+}
+
+.me {
+  padding: 20px 300px 30px 20px
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6em;
+}
+
+.matt{
+  minimum-width: 200px;
+  max-height: 200px;
+  border-radius: 7%;
+  margin-right: 200px;
+  margin-top: -215px;
+  float: right;
+}
+
+#placeholder{
+  margin:45px
+}
+
+h3{
+  text-align: center;
+  background-color: white;
+  font-color: black;
+  font-weight: bold;
+}
+
+/*++++++Contact+++++*/
+.contact {
+  text-align: center;
+  background-color: orange;
+}
+
+/*++++++Footer+++++++*/
+footer{
+  text-align: center;
+  background: black;
+}
+
+#brand{
+  color: orange;
+}
+
+#twitterIcon {
+  color: orang;
+}

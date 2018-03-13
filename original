@@ -1,0 +1,77 @@
+<head>
+<meta charset="utf-8" />
+<title>Máté Hricz Portfolio</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+</head>
+
+<body>
+    <div id="container">
+      
+      <ul>
+	        <li><a href="#content">About</a></li>
+	        <li><a href="#portfolio">Portfolio</a></li>
+	        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+   
+    <header>    
+      <div id="header">
+	    <h1>Máté Hricz.</h1>
+	    <h2>Web Designer || Web Developer</h2>
+      </div> 
+   </header> 
+        
+        <!-- END OF HEADER-->
+        
+      <div id="content">
+	     <h3>About Me</h3>
+	
+	     <p class="me">I am a self taught Web Designer and Web Developer.<br> I constantly learning new things to get better and better. <br>What I always loved about coding is that I can create new<br> things with some line of code.</p>  
+        
+       <img src="https://pbs.twimg.com/profile_images/1864601218/IMG_0477.JPG" class="matt">
+        
+       <section>
+         <h3>Portfolio</h3>
+         <div class="portfolio" id="portfolio">
+     <img id="placeholder" src="http://placehold.it/350x150">
+     <img id="placeholder" src="http://placehold.it/350x150">
+     <img id="placeholder" src="http://placehold.it/350x150">
+     <img id="placeholder" src="http://placehold.it/350x150">
+     <img id="placeholder" src="http://placehold.it/350x150">
+     <img id="placeholder" src="http://placehold.it/350x150">      
+    </div>
+        
+  
+ <!-- END OF SECTION TWO -->
+    
+    <div class="contact" id="contact">
+     <h3>Contact</h3>
+      <form> 
+       <br>Your name</br>                                            <input type="text" name="cf_name"></br>Your e-mail</br>
+       <input type="text" name="cf_email"></br> Message</br>
+       <textarea name="cf_message"></textarea>
+       </br>
+</br>
+       <button type="submit" value="Send">Submit</button>
+       <button type="reset" value="Clear">Clear</button>
+</form></br>
+    </div>
+
+    
+    <!-- END OF SECTION THREE -->
+    
+    <footer>
+      <p id="brand">&copy; Máté Hricz 2017</p>
+     <div class="btnList" id="button">
+       <a class="btn btn-default" href="http.//twitter.com/hriczmate"><i class="fa fa-twitter" id="twitterIcon" aria-hidden="true">Twitter</a>
+       <a class="btn btn-default" href="http.//facebook.com/hriczmate"><i class="fa fa-facebook" id="facebookIcon" aria-hidden="true">Facebook</a>
+       <a class="btn btn-default" href="https://www.freecodecamp.com/matt9993"><i class="fa fa-free-code-camp" id="freecodecampIcon" aria-hidden="true">freecodeCamp</a>
+    </div>
+    </footer>
+  </body>
+</html>
+
+  
+      <!-- END OF FOOTER -->

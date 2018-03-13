@@ -1,0 +1,123 @@
+/*++++++Welcome+++++*/
+section {
+	width: 80%;
+	margin: 0 auto;
+	line-height: 0;
+	position: relative;
+}
+section img {
+	width: 100%;
+}
+section article {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	mix-blend-mode: lighten;
+}
+section div {
+	background: black;
+	height: 25.3vw;
+}
+section div:nth-of-type(2) {
+	grid-column: 2 / 4;
+}
+
+/*++++++Main+++++*/
+
+
+#nav:visited {
+  color: white;
+  background: grey;
+}
+
+#nav:hoover {
+  color: brown;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: right;
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: ;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header{
+  font-family:'Rubik Mono One',sans serif;
+  background-image: url("beans.jpeg");
+  text-align: center;
+  padding: 40px;
+}
+
+#header{
+color:white;
+}
+
+
+#content {
+  background-color:grey;
+}
+
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6em;
+}
+
+.products{
+background-image: url("beans.jpeg");
+}
+
+
+#placeholder{
+  margin:45px
+}
+
+h3{
+  text-align: center;
+  background-color: white;
+  font-color: black;
+  font-weight: bold;
+}
+
+/*++++++Contact+++++*/
+.contact {
+  text-align: center;
+  background-image: url("beans.jpeg");
+  color:orange;
+}
+
+
+
+/*++++++Footer+++++++*/
+footer{
+  text-align: center;
+  background: black;
+}
+
+#brand{
+  color: orange;
+}
+
+#twitterIcon {
+  color: orang;
+}
